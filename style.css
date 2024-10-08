@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sch_name{
+    margin-left: 45px;
+    font-size: 30px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+}
+.nav_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 150px;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;      
+}
+.signup{
+    margin-right: 12px;
+    padding: 8px;
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(7, 180, 192);
+    color: white;
+    border-radius: 3px;
+}
+.signin{
+    margin-right: 25px;
+    padding: 8px;
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;   
+}
+.link1{
+    margin-left: 12px;
+    color: white;
+    text-decoration: none;
+}
+.link2{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.link3{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.link4{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.signup:hover{
+    background-color: rgb(29, 5, 165);
+    transition: 0.2s;
+    color: white;    
+}
+.signin:hover{
+    background-color: crimson;
+    transition: 0.2s;
+    color: white;
+}
+.footer_content{
+    margin-top: 62px;
+    background-color:  black;
+    height: 71px;
+    color: white;
+    font-size: 22px;
+}
+.footer1{
+    margin-left: 12px;
+    color: white;
+    text-decoration: none;
+}
+.footer2{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.footer3{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.footer4{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.footer_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 150px;
+    color: white;
+    font-size: 23px;
+    cursor: pointer; 
+    margin-left: 150px;       
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.greetings{
+    color: rgb(238, 10, 143);
+    margin-top: 130px; 
+}
+.greeting_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    width: 1005px;
+    margin-left: 180px;
+    margin-top: 30px;
+    line-height: 28px;
+    color: white;
+}
+.greeting_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;  
+}
+.learn{
+    margin-left: 600px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 130px;
+    border: none;
+    font-size: 17px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.learn:hover{
+    background-color: blue;
+    transition: 0.2s;
+}
+.signup_container{
+    background-color: rgba(0, 0, 0, 0.6);
+    /*display: none;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.signup_subcontainer{
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 330px;
+    height: 420px;
+}
+.signup_subcontainer{
+    padding: 40px;
+}
+.close_btn{
+    margin-left: 270px; 
+    border: none; 
+    font-size: 25px; 
+    background-color: white;
+}
+.signup_title{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.heading_lastpart{
+    line-height: 25px;
+}
+.Firstname, .Email, .Surname, .Password {
+    font-size: 18px; 
+}
+
+
+.Firstname_input, .Surname_input, .Email_input, .Password_input{
+    padding: 7px;
+    border-radius: 4px;
+    width: 250px;
+    
+}
+.submit{
+    padding: 5px;
+    margin-top: 20px;
+    width: 90px;
+}
+.email_container{
+    
+}
+
