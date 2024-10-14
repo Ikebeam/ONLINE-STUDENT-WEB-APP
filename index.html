@@ -9,16 +9,15 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 
 </head>
-
 <body>
     <nav class="navbar">
         <h1 class="sch_name">A+ ONLINE SCHOOL</h1>
         <div class="nav_menu">
             <div class="navbar_links">
                 <a href="#" class="link1">Home</a>
-                <a href="#" class="link2">Profile</a>
-                <a href="#" class="link3">Courses</a>
-                <a href="#" class="link4">Skills</a>
+                <a href="profile.html" class="link2">Profile</a>
+                <a href="courses.html" class="link3">Courses</a>
+                <a href="skills.html" class="link4">Skills</a>
             </div>
             <button class="signup">Sign Up</button>
             <button class="signin">Sign In</button>
@@ -60,6 +59,8 @@
             <button class="close_btn">x</button>
             <div class="heading_lastpart">
                 <h1 class="signup_title">SIGN UP</h1>
+
+                <div class="signUpMessage" class="messageDiv" style="display:none;"></div>
                 <div class="heading_input">
                     <span class="Firstname">Full Name</span>
                     <input type="text" class="Firstname_input" placeholder="Enter Full Name"><br>
@@ -72,7 +73,7 @@
 
                     <span class="Password">Password</span><br>
                     <input type="password" class="Password_input" placeholder="Enter Password">
-                    
+
 
                     <button class="submit">Submit</button>
                 </div>
@@ -87,31 +88,31 @@
             <div class="signin_excludeX">
                 <h1 class="signin_heading">SIGN IN</h1>
 
-        <div class="signin_email">
-            <p class="text">Email</p>
-        <input type="text" class="signin_email" placeholder="Enter Email"><br>
-        </div>
-        
-        <P class="text">Password</p>
-        <div class="signin_password">
-            <input type="password" class="signin_password" placeholder="Enter Password"><br>
-        </div>
+                <div class="signInMessage" class="messageDiv" style="display:none;"></div>
+                <div class="signin_email">
+                    <p class="text">Email</p>
+                    <input type="text" class="signin_email" placeholder="Enter Email"><br>
+                </div>
 
-        <div class="forget_rem">
-            <a href="#" class="forg_password"><span>Forgot Password?</span></a>
-            <a href="#" class="rememberMe"><label class="remember_me">Remember Me</label></a>
-        </div>
+                <P class="text">Password</p>
+                <div class="signin_password">
+                    <input type="password" class="signin_password" placeholder="Enter Password"><br>
+                </div>
 
-        <button class="signin_btn">Sign In</button>
-        <br>
-        <span>Do you already have an account?</span>
-        <a href="#" class="remember"><label class="account_signup">Sign Up</label></a>
+                <div class="forget_rem">
+                    <a href="#" class="forg_password"><span>Forgot Password?</span></a>
+                    <a href="#" class="rememberMe"><label class="remember_me">Remember Me</label></a>
+                </div>
+
+                <button class="signin_btn">Sign In</button>
+                <br>
+                <span>Do you already have an account?</span>
+                <a href="#" class="remember"><label class="account_signup">Sign Up</label></a>
             </div>
-            
+
         </div>
-        
+
     </div>
     <script src='app.js'></script>
 </body>
-
 </html>
