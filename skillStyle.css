@@ -157,7 +157,7 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-.right-side h2{
+.right-side h1{
     margin-top: 20px;
 }
 .sidebar-links{
@@ -174,5 +174,25 @@ body{
     
 }
 .sidebar-links a:hover{
-    background-color: rgb(57, 230, 236);  
+    background-color: #00d1b2; 
+    color: white; 
 }
+.business {
+    padding: 20px;
+    text-align: center;
+    max-height: 400px;
+    overflow-y: auto; 
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    line-height: 2;
+    font-size: 20px;
+    
+}
+.rightside-content h1{
+    color: #0073e6;
+}
+.business ol{
+    list-style: none;
+}
+

@@ -174,5 +174,26 @@ body{
     
 }
 .sidebar-links a:hover{
-    background-color: rgb(57, 230, 236);  
+    background-color: #00d1b2; 
+    color: white; 
 }
+.scientific-facts {
+    padding: 20px;
+    text-align: center;
+    max-height: 400px;
+    overflow-y: auto; 
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    line-height: 3;
+    font-size: 20px;
+    
+}
+.scientific-facts li{
+    list-style: none;
+}
+.rightside-content h1{
+    color: #0073e6;
+}
+
+
